@@ -1,0 +1,302 @@
+*{
+    font-family: 'Familjen Grotesk', sans-serif;
+    margin: 0;
+}
+body{
+    padding-top: 90px;
+}
+/*font-family: 'League Gothic', sans-serif;
+font-family: 'Oswald', sans-serif;*/
+.nav-link{
+    font-size: 125%;
+}
+
+.custom-nav {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.order-box{
+    width: 200%;
+    text-align: center;
+    background-color: #992b12; 
+    padding: 10px; 
+    border-radius: 5px; 
+    display: inline-block;
+}
+.order-box:hover{
+    background-color: #7c220d;
+}
+.home-top{
+    height: 70%;
+    margin-top: auto;
+}
+
+
+.home-section {
+    background-image: url('images/home.jpg');
+    background-position: top;
+    background-size: cover;
+    height: 65vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+  
+.home-section h1 {
+    font-family: 'League Gothic', sans-serif;
+    font-size: 7em;
+    margin-bottom: 0;
+    position: relative;
+    bottom: 0;
+    transform: translateY(10%);
+}
+.home-section h2 {
+    font-weight: 700;
+    font-size: 2em;
+    margin-bottom: 3.5vh;
+    
+}
+.home-section a{
+    width: 30%;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+    text-align: center;
+    color: inherit;
+    text-decoration: none;
+    padding: 10px; 
+    border-radius: 5px; 
+    display: inline-block;
+    background-color: #f1f1f1;
+    font-size: 1.25em;
+}
+
+.home-section a:hover{
+    background-color: #dad2d2;
+}
+
+.home-rewards div{
+    margin: auto;
+    width: 70%;
+    transform: translate(0, 50%);
+    
+}
+
+.home-rewards{
+    height: 400px;
+    background-color: #f3f2ef;
+    position: relative;
+}
+.home-rewards img{
+    position: absolute;
+    bottom: 0;
+    left: 10%;
+}
+
+.home-order div{
+    margin: auto;
+    width: 70%;
+    transform: translate(0, 50%);
+    
+}
+.home-order{
+    height: 35vh;
+    background-image: url(images/home-order.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+
+
+.pizzas{
+    font-family: 'Oswald', sans-serif;
+    background-color: #f3f2ef;
+}
+.salads{
+    font-family: 'Oswald', sans-serif;
+    background-color: #ffffff;
+}
+
+.big-red{
+    color: #c53c38;
+    font-size: 5em;
+    font-family: 'League Gothic', sans-serif;
+}
+.sub-red{
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 3px;
+}
+.sub-des{
+    font-size: 1.2em;
+    font-weight: 100;
+    letter-spacing: 3px;
+}
+
+
+
+
+.row-container{
+    width: 50%;
+    margin: auto;
+}
+
+.menu-item {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.menu-item-image {
+    flex: 0 0 260px;
+    overflow: hidden;
+}
+
+.menu-box {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    background-color: #fff;
+}
+.menu-box-d {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    background-color: #f3f2ef;
+}
+
+.menu-title {
+    position: relative;
+    padding: 10px 20px;
+    background-color: #605954;
+    color: #fff;
+}
+
+.menu-description {
+    flex: 1 0;
+    padding: 15px;
+    min-height: 93px;
+}
+
+
+
+.menu-learn {
+    font-family: 'League Gothic', sans-serif;
+    background-color: #af3133; /* Red color */
+    color: #FFFFFF; /* White text */
+    text-align: center;
+    padding: 10vh;
+    border-radius: 0; /* Remove border radius for full width */
+}
+.menu-learn button{
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.2em;
+    background-color: #FFFFFF;
+    color: #af3133;
+    margin: 5px;
+    width: 15%;
+}
+
+.rewards-top{
+    background-color: #af3133;
+    width: 100%;
+    position: relative;
+    height: 35em;
+}
+
+.rewards-top h1{
+    font-family: 'League Gothic', sans-serif;
+}
+
+.rewards-top button{
+    margin-top: 20px;
+    font-family: 'Oswald', sans-serif;
+    color: #af3133;
+    width: 20%;
+}
+
+.rewards-top div{
+    margin: auto;
+    width: 70%;
+    transform: translate(0, 50%);
+    
+}
+.rewards-top img{
+    position: absolute;
+    bottom: 0;
+    right: 15%;
+}
+.rewards-top h2{
+    font-size: 2.5em;
+}
+.rewards-top p{
+    width: 60%;
+    font-size: 1.3em;
+}
+
+
+.rewards-banner{
+    background-image: url('images/rewards-back.jpg');
+    background-position: top;
+    background-size: cover;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.rewards-banner h1{
+    font-family: 'League Gothic', sans-serif;
+}
+
+.rewards-banner p{
+    margin-top: 20px;
+    font-size: 1.2em;
+}
+
+.rewards-info{
+    background-color: #f3f2ef;
+    padding-top: 5em;
+}
+.rewards-info h4{
+    margin-top: 10px;
+    font-size: 2.5em;
+}
+.rewards-info h5{
+    font-size: 1.5em;
+}
+.rewards-info li{
+    font-size: 1.2em;
+}
+
+.about-us h2{
+    font-family: 'League Gothic', sans-serif;
+    color: #7c220d;
+}
+
+.about-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-section img {
+    max-width: 100%;
+    height: auto;
+}
+.about-txt{
+    width: 50%;
+}
+
+.ab-1{
+    background-color: #f3f2ef;
+}
+.ab-2{
+    background-color: #fff;
+}
+.ab-3{
+    background-color: #221f20;
+}
+
+

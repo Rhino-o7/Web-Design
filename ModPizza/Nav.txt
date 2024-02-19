@@ -1,0 +1,2 @@
+The nav bar is at the top of each page that can be used to navigate to Home, Menu, Rewards, About Us, and Order which is a link to the actual ordering site.
+The home page has a Order Now and a View Menu that go to the respected pages.
